@@ -171,27 +171,12 @@
   <section class="invite">
     <span class="sec-title">💙 おしらせ</span>
     <div class="invite-box">
-      <p>AIアプリ「Muse」を試すときは<br />この招待コードを使ってね。</p>
-      <div class="code-row">
-        <div class="code" id="inviteCode">IX96OF</div>
-        <button class="copy" id="copyBtn" type="button">コピー</button>
-      </div>
+      <p>AIアプリ「Muse」の招待コードは<br />上限に達しました🎉</p>
+      <p>使ってくれたみなさん、<br />ありがとうございました！</p>
     </div>
   </section>
 
   <footer>© Ozmo</footer>
 </main>
-<script>
-  document.getElementById('copyBtn').addEventListener('click', async (e) => {
-    const btn = e.currentTarget;
-    try {
-      await navigator.clipboard.writeText(document.getElementById('inviteCode').textContent.trim());
-      btn.textContent = 'コピーしたよ✓';
-    } catch (_) {
-      btn.textContent = '長押しでコピー';
-    }
-    setTimeout(() => { btn.textContent = 'コピー'; }, 2200);
-  });
-</script>
 </body>
 </html>
