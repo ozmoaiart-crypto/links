@@ -4,7 +4,7 @@ Ozmo | Hello Girls DIARY のリンクページです。
 
 公開URL: https://ozmoaiart-crypto.github.io/links/
 
-- Instagram / Threads / TikTok
+- Instagram / Threads / TikTok / GIPHY
 - LINEスタンプ（作者ページ・第1弾「日常」・第2弾「お家」）
 - Muse 招待コード IX96OF
 
